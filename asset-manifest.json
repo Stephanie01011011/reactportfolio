@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/reactportfolio/static/js/main.b0df6a77.js",
+    "main.js": "/reactportfolio/static/js/main.dae5daa1.js",
     "index.html": "/reactportfolio/index.html",
-    "main.b0df6a77.js.map": "/reactportfolio/static/js/main.b0df6a77.js.map"
+    "main.dae5daa1.js.map": "/reactportfolio/static/js/main.dae5daa1.js.map"
   },
   "entrypoints": [
-    "static/js/main.b0df6a77.js"
+    "static/js/main.dae5daa1.js"
   ]
 }
