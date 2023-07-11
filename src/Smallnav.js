@@ -1,15 +1,14 @@
-import './nav.css';
+import './smallnav.css';
 import { Link } from 'react-router-dom';
 
-export default function Nav(){
+export default function Smallnav(){
     
     return (
         <>
         <div className="navContainer">
-            <div className="navLogo">
-                 <h4>STEPHANIE<br/>LIVENGOOD</h4>
-                 <p>Web Developer</p>
-            </div>
+           <div className="logo">
+            <h2>Stephanie Livengood - Web Developer</h2>
+           </div>
             <div className="navMenu">
                 
            <div className="navBtns">   <ul>

@@ -1,6 +1,9 @@
 .navContainer{
     background-color: black;
-    height: 500px;
+    height: 70px;
+}
+h2{
+    color: palevioletred;
 }
 
 .navContainer{
@@ -26,21 +29,8 @@ a:hover{
     text-decoration: underline;
     
 }
-.navLogo{
-    
-    color: white;
-}
-.navLogo h4{
-    margin-top: 1em;
-    margin-left: 10px;
-    margin-bottom: 5px;
-    font-size: 100px;
-}
-.navLogo p{
-    margin-left: 8%;
-    font-size: 30px;
-    color: palevioletred;
-}
+
+
 
 .navMenu{
     display: flex;

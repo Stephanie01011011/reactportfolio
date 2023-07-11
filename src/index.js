@@ -3,13 +3,19 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import { HashRouter, Routes, Route } from "react-router-dom";
 import About from './About';
+import Project from './Project';
+import Contact from './Contact';
+import './index.css';
 
 const RootComponent = () => (
   <React.StrictMode>
     <HashRouter>
       <Routes>
         <Route path="/" element={<App/>} />
+        <Route path="/projects" element={<Project/>} />
         <Route path="/about" element={<About/>}/>
+        <Route path="/contact" element={<Contact/>}/>
+
       </Routes>
     </HashRouter>
   </React.StrictMode>
