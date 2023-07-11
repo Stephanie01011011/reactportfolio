@@ -1,0 +1,53 @@
+.navContainer{
+    background-color: black;
+}
+img{
+    width: 80px;
+}
+.navContainer{
+    display: flex;
+    width: 100vw;
+   
+}
+ul{
+    display: flex;
+   text-decoration: none;
+   list-style: none;
+   
+   
+}
+
+a{
+    
+    color: white!important;
+    margin-left: 20px;
+}
+a:hover{
+    text-decoration: underline;
+    
+}
+.navLogo{
+    
+    color: white;
+}
+.navLogo h4{
+    margin-top: 1em;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+.navLogo p{
+    margin-left: 30px;
+}
+.material-symbols-outlined{
+    color: white;
+   
+}
+.navMenu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 50px;
+    text-align: right;
+    top: 12%;
+}
