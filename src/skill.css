@@ -1,3 +1,62 @@
 .card{
-    display: flex;
+    font-family: 'Raleway', sans-serif;
+    width: 350px;
+    height: 400px;
+    background: linear-gradient(106.5deg, rgba(247, 200, 247, 0.91) 23%, rgba(71, 59, 183, 0.8) 93%);;
+    border-radius: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: width 0.3s, height 0.3s;
 }
+.card:hover{
+    width: 380px;
+    height:410px;
+}
+.cardsdiv{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.text p{
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    width: 300px;
+    
+}
+.text h1{
+    text-align: center;
+    margin-bottom: -25px;
+    color: white;
+}
+#react, #javascript, #python{
+    width: 70px;
+}
+.image{
+    text-align: center;
+    margin-top: 5px;
+}
+.projects{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.projects button{
+    background-color: palevioletred;
+    border-style: none;
+    outline-style: none;
+    width: 140px;
+    height: 60px;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: width 0.3s
+}
+.projects button:hover{
+    width: 200px;
+}
+

@@ -1,11 +1,12 @@
 .navContainer{
     background-color: black;
     height: 500px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .navContainer{
     display: flex;
-    width: 100vw;
+    
    
 }
 ul{
@@ -15,15 +16,20 @@ ul{
    
    
 }
-
 a{
+    color: white;
+    text-decoration: none;
+}
+
+li{
     
     color: white!important;
     margin-left: 80px;
     text-decoration: none;
+    transition: font-size 0.3s;
 }
-a:hover{
-    text-decoration: underline;
+li:hover{
+    font-size: 18px;
     
 }
 .navLogo{

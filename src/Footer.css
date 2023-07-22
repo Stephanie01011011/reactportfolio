@@ -1,0 +1,24 @@
+.footerContainer{
+    background-color: black;
+    display: flex;
+    color: white;
+    height: 150px;
+    justify-content: space-evenly;
+    font-family: 'Raleway', sans-serif;
+}
+.trade, .sitemap, .social{
+    margin-top: 30px;
+}
+.sitemap a{
+    
+    text-decoration: none;
+}
+.social a{
+    
+}
+
+#LI, #git, #insta{
+    width: 40px;
+
+}
+

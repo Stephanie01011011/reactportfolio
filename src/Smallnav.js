@@ -1,14 +1,14 @@
 import './smallnav.css';
 import { Link } from 'react-router-dom';
 
-export default function Smallnav(){
+function Smallnav(){
     
     return (
         <>
-        <div className="navContainer">
-           <div className="logo">
-            <h2>Stephanie Livengood - Web Developer</h2>
-           </div>
+        <div className="smallnavContainer">
+          <div className="logoname">
+            <h3>Stephanie Livengood <br></br> <span style={{'font-size': "18px"}}>Web Developer</span></h3>
+          </div>
             <div className="navMenu">
                 
            <div className="navBtns">   <ul>
@@ -22,3 +22,5 @@ export default function Smallnav(){
         </>
     )
 }
+
+export default Smallnav;
