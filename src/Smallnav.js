@@ -12,9 +12,9 @@ function Smallnav(){
             <div className="navMenu">
                 
            <div className="navBtns">   <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/projects">Projects</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
+                    <li><Link to="/" id='home'>Home</Link></li>
+                    <li><Link to="/projects" id='proj'>Projects</Link></li>
+                    <li><Link to="/contact" id='cont'>Contact</Link></li>
                 </ul></div>
              
             </div>

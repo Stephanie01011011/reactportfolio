@@ -30,6 +30,7 @@ li{
 }
 li:hover{
     font-size: 18px;
+   
     
 }
 .navLogo{
@@ -38,7 +39,7 @@ li:hover{
 }
 .navLogo h4{
     margin-top: 1em;
-    margin-left: 10px;
+    margin-left: 40px;
     margin-bottom: 5px;
     font-size: 100px;
 }

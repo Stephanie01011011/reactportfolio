@@ -1,6 +1,6 @@
 .smallnavContainer{
-    background-color: black;
-    height: 90px;
+    background-color: white;
+    height: 110px;
     display: flex;
     font-family: 'Raleway', sans-serif;
     
@@ -8,15 +8,14 @@
     
 }
 h3{
-    color: palevioletred;
+    color: black;
     font-size: 34px;
     margin-left: 20px;
     margin-top: 15px;
     
+    
 }
-.logoName{
-    background-color: black;
-}
+
 
 .navContainer{
     display: flex;
@@ -31,11 +30,15 @@ ul{
    
 }
 
-a{
+#home, #proj, #cont{
     
-    color: white!important;
+    color: black;
     margin-left: 80px;
     text-decoration: none;
+}
+#home:hover, #proj:hover, #cont:hover{
+    text-decoration: underline;
+    text-decoration-color: palevioletred;
 }
 
 

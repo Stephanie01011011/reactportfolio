@@ -1,5 +1,40 @@
 .projectCards{
-    height: 800px;
-    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(32, 32, 32);
     
+    
+}
+.project1, .project2{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    
+}
+#proj1, #proj2{
+    width: 500px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.project1 p, .project2 p{
+    width: 500px;
+}
+.txt{
+    margin-top: 50px;
+    line-height: 2em;
+}
+.txt h3{
+    margin-left: 0;
+    font-size: 18px;
+    color: palevioletred;
+
+}
+.project2{
+    display: flex;
+    
+}
+.project2 .txt{
+    margin-left: 20px;
+}
+.img{
+    margin-top: 50px;
 }
