@@ -1,6 +1,8 @@
 import './skill.css';
 import { Link } from 'react-router-dom';
+
 const Skill = () => {
+  
     return ( 
         <>
         <div className="cardsdiv">
@@ -37,7 +39,8 @@ const Skill = () => {
 
         <div className="projects">
             <h1>Please Check Out My Projects!</h1>
-            <button>Show Me!</button>
+            <Link to="/projects" id='showmeBtn'>Show Me!</Link>
+            
             </div>
         </>
         );

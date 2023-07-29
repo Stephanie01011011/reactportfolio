@@ -1,5 +1,5 @@
 .smallnavContainer{
-    background-color: white;
+    background-color: black;
     height: 110px;
     display: flex;
     font-family: 'Raleway', sans-serif;
@@ -8,7 +8,7 @@
     
 }
 h3{
-    color: black;
+    color: white;
     font-size: 34px;
     margin-left: 20px;
     margin-top: 15px;
@@ -32,14 +32,11 @@ ul{
 
 #home, #proj, #cont{
     
-    color: black;
+    color: white;
     margin-left: 80px;
     text-decoration: none;
 }
-#home:hover, #proj:hover, #cont:hover{
-    text-decoration: underline;
-    text-decoration-color: palevioletred;
-}
+
 
 
 

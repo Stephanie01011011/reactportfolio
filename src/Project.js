@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { useLayoutEffect } from 'react';
 import Footer from "./Footer";
 import Smallnav from "./Smallnav";
 import './Project.css';
@@ -6,6 +7,10 @@ import './Project.css';
 
 
 function Project(){
+  //Link from homepage sends user to top of page
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0)
+});
     return ( 
         <>
           <Smallnav />
@@ -20,6 +25,7 @@ function Project(){
                   to display all of the weather information. I used a simple and easy search bar to 
                   complete the API request so users can pick which cities to look at. The code validates
                   the user info and returns the input in the display window.</p>
+                  <a id="repoBtn" href="https://github.com/Stephanie01011011/react-weather">Github Repo</a>
               </div>
             </div>
             <div className="project2">
@@ -32,6 +38,7 @@ function Project(){
                   to display all of the weather information. I used a simple and easy search bar to 
                   complete the API request so users can pick which cities to look at. The code validates
                   the user info and returns the input in the display window.</p>
+                  <a id="repoBtn" href="https://github.com/Stephanie01011011/react-weather">Github Repo</a>
                   </div>
                   <div className="img"><img id="proj2" src="https://live.staticflickr.com/65535/53064395209_366530a296_z.jpg" alt="" /></div>
             </div>
