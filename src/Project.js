@@ -16,7 +16,7 @@ function Project(){
           <Smallnav />
           <div className="projectCards">
             <div className="project1">
-              <div className="img"><img id="proj1" src="https://live.staticflickr.com/65535/53064395209_366530a296_z.jpg" alt="" /></div>
+              <div className="img"><a href="https://react-weather-api-steph.netlify.app/" id="proj1link"><img id="proj1" src="https://live.staticflickr.com/65535/53123808960_b132c4bf66.jpg" alt="" /></a></div>
               <div className="txt">
                 <h2>Weather App using API</h2>
                 <h3>HTML/CSS, Javascript, React</h3>

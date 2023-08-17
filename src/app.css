@@ -71,11 +71,14 @@
   }
   .stephimg{
     margin-right: 0;
-    margin-top: 70px;
+    margin-top: 200px;
     display: flex;
     flex-direction: column;
   }
   .stephimg img{
     width: 200px;
+  }
+  #animation{
+    transform: rotate(90deg);
   }
   

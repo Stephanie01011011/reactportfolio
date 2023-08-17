@@ -2,18 +2,15 @@
     font-family: 'Raleway', sans-serif;
     width: 350px;
     height: 400px;
-    background: linear-gradient(106.5deg, rgba(247, 200, 247, 0.91) 23%, rgba(71, 59, 183, 0.8) 93%);;
+    background: linear-gradient(106.5deg, rgba(123, 122, 123, 0.91) 23%, rgba(20, 19, 29, 0.8) 93%);;
     
     margin-top: 70px;
     margin-bottom: 70px;
     font-size: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: width 0.3s, height 0.3s;
+    
 }
-.card:hover{
-    width: 380px;
-    height:410px;
-}
+
 .cardsdiv{
     display: flex;
     justify-content: space-evenly;

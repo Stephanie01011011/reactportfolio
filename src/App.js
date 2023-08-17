@@ -35,8 +35,8 @@ function App() {
   </form>
   </div>
  <div className="stephimg">
- <img src="https://media3.giphy.com/media/UVG0BN8TOMKkPOJS6e/giphy.gif?cid=ecf05e471vrpf1kxv3jv0n3xfx96y2j394yfcyczbn4iqypf&ep=v1_stickers_search&rid=giphy.gif&ct=s" alt="" />
- <img src="https://media3.giphy.com/media/UVG0BN8TOMKkPOJS6e/giphy.gif?cid=ecf05e471vrpf1kxv3jv0n3xfx96y2j394yfcyczbn4iqypf&ep=v1_stickers_search&rid=giphy.gif&ct=s" alt="" />
+ <img id="animation" src="https://media3.giphy.com/media/UVG0BN8TOMKkPOJS6e/giphy.gif?cid=ecf05e471vrpf1kxv3jv0n3xfx96y2j394yfcyczbn4iqypf&ep=v1_stickers_search&rid=giphy.gif&ct=s" alt="" />
+ 
   </div>
  </div>
  <Skill/>
