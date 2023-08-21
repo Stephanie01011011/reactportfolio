@@ -18,10 +18,10 @@ function App() {
             My plan was always to get a 4 year degree, so I immediately transferred 
             to IUPUI to earn my <span style={{'color': 'palevioletred'}}>B.S in Informatics</span>. This degree really helped me develop 
             my technical skills as well as my user empathy skills since I was able to 
-            take many <span style={{'color': 'palevioletred'}}>UX/ HCI</span> based classes. I recently completed an 11-month long <span style={{'color': 'palevioletred'}}>internship </span> 
+            take many <span style={{'color': 'palevioletred'}}>UX/ HCI</span> based classes. I recently completed a year long <span style={{'color': 'palevioletred'}}>internship </span> 
             as a web developer and designer which gave me a vast amount of real world experience 
             using a CMS and creating ads for websites. I was able to sit in with vendors of the 
-            company and discuss <span style={{'color': 'palevioletred'}}>website design and development</span> on a weekly basis.I have spent 
+            company and discuss <span style={{'color': 'palevioletred'}}>website design and development</span> on a weekly basis. I have spent 
             many hours after school and 
             internships to develop my web development abilities. I started with HTML 
             and CSS, and worked my way up to where I am now. I am currently learning more 

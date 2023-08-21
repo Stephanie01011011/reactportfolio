@@ -2,7 +2,7 @@
     font-family: 'Raleway', sans-serif;
     width: 350px;
     height: 400px;
-    background: linear-gradient(106.5deg, rgba(123, 122, 123, 0.91) 23%, rgba(20, 19, 29, 0.8) 93%);;
+    background: linear-gradient(106.5deg, rgba(30, 30, 30, 0.91) 23%, rgba(0, 0, 0, 0.8) 93%);;
     
     margin-top: 70px;
     margin-bottom: 70px;
@@ -23,6 +23,7 @@
     margin-top: 20px;
     width: 300px;
     font-size: 18px;
+    color: white;
     
 }
 .text h1{
