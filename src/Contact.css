@@ -14,6 +14,8 @@
     font-size: 20px;
     line-height: 2em;
     margin-bottom: 50px;
+  
+    width: 750px;
     
 }
 .contactParagraph a{
@@ -66,4 +68,11 @@ textarea{
 }
 hr{
     margin-top: 40px;
+}
+.contactParagraph{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }

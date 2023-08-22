@@ -22,13 +22,13 @@ function App() {
             as a web developer and designer which gave me a vast amount of real world experience 
             using a CMS and creating ads for websites. I was able to sit in with vendors of the 
             company and discuss <span style={{'color': 'palevioletred'}}>website design and development</span> on a weekly basis. I have spent 
-            many hours after school and 
+            many hours outside of school and 
             internships to develop my web development abilities. I started with HTML 
             and CSS, and worked my way up to where I am now. I am currently learning more 
             backend technologies and frameworks, such as <span style={{'color': 'palevioletred'}}>Node.js</span>, to better be able to 
-            create dynamic websites. When I'm not in class you can find me reading. I have 
+            create dynamic websites and utilize servers. When I'm not in class you can find me reading. I have 
             a crazy collection of books and the last time I counted I had about 300.
-            I am so excited to hear any questions you may have, so please feel free to email me or send a message through the form below! 
+            I am so excited to hear any questions you may have, so please feel free to email me any time! 
     </p>
   <form action="mailto:sreneelive@gmail.com"> 
   <button>Email Me!</button>
