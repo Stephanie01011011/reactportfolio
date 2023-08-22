@@ -1,6 +1,6 @@
 .projectCards{
     font-family: 'Raleway', sans-serif;
-    
+    margin-bottom: 20px;
     
     
 }
@@ -11,7 +11,7 @@
     
 }
 #proj1, #proj2{
-    width: 500px;
+    width: 90%;
     border-radius: 20px;
     margin: 20px;
     border-style: solid;
@@ -24,6 +24,7 @@
 .txt{
     margin-top: 50px;
     line-height: 1.5em;
+    
     
 }
 .txt h3{
