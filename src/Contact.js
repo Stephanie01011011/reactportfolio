@@ -17,7 +17,7 @@ const Contact = () => {
             you would just like to talk about my journey, your 
             journey, or web development in general. I have listed some of my contact information below, as well as a link to my resume.
           </h3>
-          <a href="https://www.linkedin.com/in/slivengood01/overlay/1635532958011/single-media-viewer?type=DOCUMENT&profileId=ACoAADHDYysBKolT3tXI-IFLrIKkbWWaFoDHtFM&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BHkCyYGclSGGPhei1ziFXFA%3D%3D">Resume</a>
+          <a href="https://www.linkedin.com/in/slivengood01/details/featured/1635538099171/single-media-viewer?type=DOCUMENT&profileId=ACoAADHDYysBKolT3tXI-IFLrIKkbWWaFoDHtFM&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_featured_details%3BrjM1QgUTRKK7nDIi%2FHfl7g%3D%3D">Resume</a>
           </div>
         <hr />
           <div className="contactInfo">
