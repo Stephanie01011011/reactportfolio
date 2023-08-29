@@ -11,6 +11,9 @@ function Project(){
   useLayoutEffect(() => {
     window.scrollTo(0, 0)
 });
+if(window.innerWidth < 700){
+
+}
     return ( 
         <>
           <Smallnav />
@@ -19,7 +22,7 @@ function Project(){
               <div className="img"><a href="https://react-weather-api-steph.netlify.app/" id="proj1link"><img id="proj1" src="https://live.staticflickr.com/65535/53123808960_b132c4bf66.jpg" alt="" /></a></div>
               <div className="txt">
                 <h2>Weather App using API</h2>
-                <h3>HTML/CSS, Javascript, React</h3>
+                <h3 id="projtext">HTML/CSS, Javascript, React</h3>
                 <p>For my first React project I decided the tried and true weather 
                   single page application would be a fun way to get started. I used weatherAPI
                   to display all of the weather information. I used a simple and easy search bar to 
@@ -29,10 +32,10 @@ function Project(){
               </div>
             </div>
             <div className="project2">
-            
+            <div className="img"><a href="https://stephanie01011011.github.io/flashcardweb"><img id="proj2" src="https://live.staticflickr.com/65535/53131313523_787aa5e30e.jpg" alt="" /></a></div>
               <div className="txt">
                 <h2>Language Flash Cards</h2>
-                <h3>HTML/CSS, Javascript, React, Bootstrap, Sass</h3>
+                <h3 id="projtext">HTML/CSS, Javascript, React, Bootstrap, Sass</h3>
                 <p>For my second React project I wanted to focus on incorporating other frameworks like Bootstrap
                   so that I could gain more experience using multiple technologies in one project.
                   On this website, you can click through flash cards and quiz yourself on the german language. 
@@ -41,7 +44,7 @@ function Project(){
                 </p>
                   <a id="repoBtn" href="https://github.com/Stephanie01011011/flashcardweb">Github Repo</a>
                   </div>
-                  <div className="img"><a href="https://stephanie01011011.github.io/flashcardweb"><img id="proj2" src="https://live.staticflickr.com/65535/53131313523_787aa5e30e.jpg" alt="" /></a></div>
+                 
             </div>
           </div>
          

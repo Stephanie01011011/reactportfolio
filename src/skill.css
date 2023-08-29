@@ -64,4 +64,13 @@
 .projects h1{
     margin-bottom: 30px;
 }
-
+@media only screen and (max-width: 800px){
+    .cardsdiv{
+        display: block;
+        
+    }
+    .card{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}

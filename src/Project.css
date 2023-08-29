@@ -1,6 +1,6 @@
 .projectCards{
     font-family: 'Raleway', sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     
     
 }
@@ -27,11 +27,12 @@
     
     
 }
-.txt h3{
+.txt #projtext{
     margin-left: 0;
     font-size: 18px;
     color: palevioletred;
-
+    width: fit-content;
+    
 }
 .project2{
     display: flex;
@@ -54,4 +55,33 @@
 #repoBtn:hover{
     padding-left: 20px;
     padding-right: 20px;
+}
+@media only screen and (max-width: 800px){
+    .project1, .project2{
+        flex-direction: column;
+        text-align: center;
+       
+       
+    }
+    .project1 #projtext{
+        margin-left: 20%;
+    }
+   .project1 .txt{
+    margin-left: 4%;
+   }
+   
+    .txt #projtext{
+        text-align: center;
+        margin-top: 0;
+    }
+    .project1 p, .project2 p{
+        width: 95%;
+        text-align: center;
+    }
+    
+    #repoBtn{
+        
+    }
+    
+    
 }

@@ -10,15 +10,15 @@ export default function Nav(){
                  <h4>STEPHANIE<br/>LIVENGOOD</h4>
                  <p>Web Developer</p>
             </div>
-            <div className="navMenu">
+            <div className="homeNavMenu">
                 
-           <div className="navBtns">   <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/projects">Projects</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
+              <ul>
+                    <li id='link'><Link to="/">Home</Link></li>
+                    <li id='link'><Link to="/projects">Projects</Link></li>
+                    <li id='link'><Link to="/contact">Contact</Link></li>
                 </ul></div>
              
-            </div>
+            
         </div>
         </>
     )

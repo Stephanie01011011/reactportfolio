@@ -7,9 +7,9 @@ function Smallnav(){
         <>
         <div className="smallnavContainer">
           <div className="logoname">
-            <h3>Stephanie Livengood <br></br> <span style={{'font-size': "18px"}}>Web Developer</span></h3>
+            <h3>Stephanie Livengood <br></br> <span style={{'font-size': "10px"}}>Web Developer</span></h3>
           </div>
-            <div className="navMenu">
+            <div className="smallNavMenu">
                 
            <div className="navBtns">   <ul>
                     <li><Link to="/" id='home'>Home</Link></li>
