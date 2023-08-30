@@ -51,6 +51,11 @@ ul{
         
         height: 150px;
         text-align: center;
+        display: flex;
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     }
     
     #home, #proj, #cont{
@@ -66,7 +71,7 @@ ul{
     }
     h3{
         font-size: 18px;
-        margin-top: 70%;
+        margin-top: 30%;
         margin-left: 10px;
         width: 75px;
         

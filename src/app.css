@@ -64,6 +64,12 @@
     }
     .heroText{
       text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      margin-top: 20px;
     }
     .heroText button{
       margin-top: 20px;

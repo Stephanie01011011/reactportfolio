@@ -60,14 +60,29 @@
     .project1, .project2{
         flex-direction: column;
         text-align: center;
+        justify-content: center;
+        align-items: center;
        
        
     }
-    .project1 #projtext{
-        margin-left: 20%;
-    }
+   
    .project1 .txt{
-    margin-left: 4%;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .project2 .txt{
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   .project2 #projtext{
+    width: 350px;
    }
    
     .txt #projtext{
@@ -79,8 +94,8 @@
         text-align: center;
     }
     
-    #repoBtn{
-        
+    #proj1, #proj2{
+        margin: auto;
     }
     
     
