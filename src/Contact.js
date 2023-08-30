@@ -1,9 +1,13 @@
 import { Link } from "react-router-dom";
+import { useLayoutEffect } from "react";
 import './Contact.css';
 import Footer from "./Footer";
 import Smallnav from "./Smallnav";
 
 const Contact = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0)
+});
     return ( 
         <>
         <Smallnav />

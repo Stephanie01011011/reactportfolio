@@ -1,9 +1,13 @@
 import { Link } from "react-router-dom";
+import { useLayoutEffect } from "react";
 import Nav from "./Nav";
 import './app.css';
 import Skill from "./skill";
 import Footer from "./Footer";
 function App() {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0)
+});
   return (
     <>
  <Nav />
